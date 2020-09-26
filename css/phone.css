@@ -1,0 +1,65 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 16px;
+}
+
+/* Home-section */
+
+#home{
+    height:370px;
+    padding: 15px ;
+}
+
+#home::before{
+    height: 520px;
+}
+
+#home p{
+    font-size: 15px;
+}
+
+/* services-section */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding:15px;
+    margin:2px 0px ;
+    margin-bottom: 5px;
+}
+
+#services::before{
+    background-image: url('../img/ayush.jpg');
+    height:800px;
+    width:100%;
+    opacity:0.7;
+}
+
+/* Client-section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+.client-items{
+    padding: 21px;
+}
+
+#clients img{
+    padding: 6px;
+    height:auto;
+    width:66px;
+}
+
+/* contact-box */
+
+#contact-box form{
+    width: 40%;
+}
